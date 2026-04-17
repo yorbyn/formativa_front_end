@@ -1,0 +1,41 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    width: 150rem;
+}
+
+nav {
+    background-color: #465B75;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+main {
+    background-color: #DEE9F7;
+    display: flex;
+    justify-content: center;
+}
+
