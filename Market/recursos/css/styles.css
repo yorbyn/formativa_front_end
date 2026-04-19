@@ -37,5 +37,82 @@ main {
     background-color: #DEE9F7;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
 }
 
+aside {
+    background-color: #ffffff;
+    border-color: #6A6F75;
+    border: solid;
+    border-width: 0.2rem;
+    flex-basis: 15%;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+}
+
+aside select {
+    margin-bottom: 1.5rem;
+    background-color: rgb(218, 216, 216);
+    border-radius: 1rem;
+    height: 2.5rem;
+    border-width: 0;
+}
+
+aside input {
+    height: 2.3rem;
+    margin-bottom: 1.5rem;
+    background-color: rgb(218, 216, 216);
+    border-radius: 1rem;
+    border-width: 0;
+}
+
+aside legend {
+    font-size: 2rem;
+    color: gray ;
+}
+
+article {
+    background-color: #ffffff;
+    border-color: #6A6F75;
+    border: solid;
+    border-width: 0.2rem;
+    flex-basis: 70%;
+}
+
+.contendor-principal-nootebooks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+section  {
+    flex: 0 0 33.3%;
+    box-sizing: border-box;
+    padding: 0 2.4rem;
+}
+
+section a {
+    text-decoration: none;
+    color: #000000;
+}
+
+section p {
+    margin-top: 0;
+}
+
+section span {
+    font-size: 1.8rem; ;
+    font-weight: bold;
+}
+
+article h2 {
+    margin-left: 1rem;
+}
+
+.precio {
+    color: #ff6347;
+    font-size: 3rem;
+    font-weight: bold;
+}
