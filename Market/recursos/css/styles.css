@@ -116,3 +116,42 @@ article h2 {
     font-size: 3rem;
     font-weight: bold;
 }
+
+footer {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+}
+
+/* footer::after{ 
+    content: '';
+    display: block;
+    width: 33.3rem;
+    height: .2rem;
+    background-color: #ffffff;
+} */
+
+.contenedor-footer {
+    color: white;
+    margin: 2rem;
+}
+
+.contenedor-footer span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contenedor-footer span::after {
+    content: '';
+    display: block;
+    width: 33.3rem;
+    height: .2rem;
+    background-color: #ffffff;
+}
+
+.contenedor-footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
