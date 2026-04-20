@@ -11,16 +11,16 @@ img {
 }
 
 header {
-    width: 150rem;
+    display: flex;
+    justify-content: center;
 }
 
 nav {
     background-color: #465B75;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: white;
-    padding-left: 7rem;
-    padding-right: 7rem;
+    width: 150rem;
 }
 
 nav ul {
@@ -31,6 +31,10 @@ nav ul a {
     color: white;
     text-decoration: none;
     margin-right: 2rem;
+}
+
+nav ul a:hover {
+    background-color: #808080;
 }
 
 main {
